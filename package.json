@@ -1,22 +1,36 @@
 {
   "name": "@pansy/monorepo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
+    "build": "pnpm -r --filter run build",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "release": "bumpp --execute=\"npm run release:prepare\" --all",
+    "release:prepare": "npm run update",
+    "publish:ci": "walrus publish",
+    "update": "walrus update",
     "prepare": "husky || true"
   },
   "keywords": [],
   "author": "wangxingkang <https://github.com/wangxingkang>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@antfu/eslint-config": "^2.11.4",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
+    "bumpp": "^9.4.0",
+    "chalk": "^5.3.0",
+    "consola": "^3.2.3",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^11.2.0",
     "husky": "^9.0.11",
     "jsdom": "^24.0.0",
     "pnpm": "^8.15.5",
     "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
     "typescript": "^5.4.3",
-    "vitest": "^1.4.0"
+    "vitest": "^1.4.0",
+    "walrus": "workspace:*"
   },
   "type": "module",
   "lint-staged": {
