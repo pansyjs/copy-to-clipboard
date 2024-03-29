@@ -60,7 +60,7 @@ importers:
   packages/copy-to-clipboard:
     dependencies:
       '@pansy/toggle-selection':
-        specifier: workspace:*
+        specifier: 1.0.3
         version: link:../toggle-selection
 
   packages/toggle-selection: {}
