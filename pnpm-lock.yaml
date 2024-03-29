@@ -17,6 +17,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.1.0
         version: 19.1.0
+      '@types/node':
+        specifier: ^20.11.30
+        version: 20.11.30
       bumpp:
         specifier: ^9.4.0
         version: 9.4.0
@@ -60,7 +63,7 @@ importers:
   packages/copy-to-clipboard:
     dependencies:
       '@pansy/toggle-selection':
-        specifier: 1.0.3
+        specifier: 1.0.4
         version: link:../toggle-selection
 
   packages/toggle-selection: {}

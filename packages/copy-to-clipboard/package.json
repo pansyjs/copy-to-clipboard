@@ -9,6 +9,11 @@
     "import": "./dist/index.mjs",
     "default": "./dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pansy/copy-to-clipboard.git",
+    "directory": "packages/copy-to-clipboard"
+  },
   "files": [
     "dist"
   ],
