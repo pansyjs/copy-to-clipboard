@@ -20,6 +20,6 @@
   "author": "wangxingkang <https://github.com/wangxingkang>",
   "license": "MIT",
   "dependencies": {
-    "@pansy/toggle-selection": "workspace:*"
+    "@pansy/toggle-selection": "1.0.0"
   }
 }
