@@ -33,6 +33,7 @@
     "walrus": "workspace:*"
   },
   "type": "module",
+  "packageManager": "pnpm@8.15.5",
   "lint-staged": {
     "*.{ts,tsx}": [
       "eslint --cache --fix"
