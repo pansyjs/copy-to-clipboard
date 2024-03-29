@@ -12,11 +12,7 @@
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pansy/copy-to-clipboard.git",
-    "directory": "packages/toggle-selection"
-  },
+  "repository": "https://github.com/pansyjs/copy-to-clipboard",
   "sideEffects": false,
   "scripts": {
     "build": "tsup",

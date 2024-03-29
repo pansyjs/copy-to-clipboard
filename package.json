@@ -12,10 +12,7 @@
     "update": "walrus update",
     "prepare": "husky || true"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pansy/copy-to-clipboard.git"
-  },
+  "repository": "https://github.com/pansyjs/copy-to-clipboard",
   "keywords": [],
   "author": "wangxingkang <https://github.com/wangxingkang>",
   "license": "MIT",
