@@ -1,6 +1,6 @@
 {
   "name": "@pansy/toggle-selection",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Toggle current selected content in browser",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

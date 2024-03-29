@@ -1,6 +1,6 @@
 {
   "name": "@pansy/copy-to-clipboard",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Copy stuff into clipboard using JS with fallbacks",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -21,6 +21,6 @@
   "author": "wangxingkang <https://github.com/wangxingkang>",
   "license": "MIT",
   "dependencies": {
-    "@pansy/toggle-selection": "1.0.7"
+    "@pansy/toggle-selection": "1.0.8"
   }
 }
