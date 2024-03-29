@@ -1,0 +1,28 @@
+{
+  "name": "@pansy/toggle-selection",
+  "version": "1.0.0",
+  "description": "Toggle current selected content in browser",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "selection",
+    "toggle",
+    "browser",
+    "deselect"
+  ],
+  "author": "wangxingkang <https://github.com/wangxingkang>",
+  "license": "MIT"
+}

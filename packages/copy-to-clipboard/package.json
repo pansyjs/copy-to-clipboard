@@ -1,0 +1,25 @@
+{
+  "name": "@pansy/copy-to-clipboard",
+  "version": "1.0.0",
+  "description": "Copy stuff into clipboard using JS with fallbacks",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [],
+  "author": "wangxingkang <https://github.com/wangxingkang>",
+  "license": "MIT",
+  "dependencies": {
+    "@pansy/toggle-selection": "workspace:*"
+  }
+}
