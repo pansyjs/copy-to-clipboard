@@ -20,7 +20,7 @@ function format(message: string) {
   return message.replace(/#{\s*key\s*}/g, copyKey);
 }
 
-function copy(text: string, options: Options) {
+function copy(text: string, options: Options = {}) {
   let debug: boolean,
     message,
     reselectPrevious,
